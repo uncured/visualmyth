@@ -1,0 +1,134 @@
+body {
+  background: url("../img/stripe.gif") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+  background: #fff;
+}
+.lang-switcher {
+  margin-top: 5px;
+  margin-bottom: 23px;
+  text-align: right;
+}
+.lang-switcher a {
+  margin: 0 5px 0 5px;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 28pt;
+  font-style: italic;
+  padding: 60px 10px 10px 10px;
+  border-bottom: 1px solid #3c3c3c;
+}
+a {
+  text-decoration: underline;
+}
+.biglink {
+  font-size: 120%;
+}
+.centered {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+img.bordered {
+  border: 1px solid #c0c0c0;
+  background: #e8e8e8;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+img.rotated-left {
+  transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+}
+.bold {
+  font-weight: bold;
+  font-size: 14pt;
+}
+.contact-info-row {
+  font-size: 14pt;
+}
+.row-separator {
+  margin-bottom: 7px;
+}
+.padded {
+  padding: 15px;
+}
+.about-me {
+  text-indent: 2em;
+  font-size: 120%;
+}
+.section {
+  margin-top: 40px;
+}
+.section-title {
+  font-size: 140%;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 130%;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding-left: 50px;
+  float: right;
+  color: #8a8a8a;
+}
+.section-text {
+  line-height: 20px;
+  font-size: 120%;
+  clear: both;
+}
+li {
+  line-height: 140%;
+}
+/*Responsive correct*/
+.centered-icon {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.outlined {
+  border-right: 2px solid #3c3c3c;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-size: 160%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+ul.non-marked-list {
+  list-style: none;
+  margin: 0;
+}
+ul.non-marked-list li {
+  display: inline-block;
+  width: 16%;
+  min-width: 80px;
+  margin: 0 10px 10px 0;
+}
+@media (max-width: 767px) {
+  .text-right {
+    text-align: left;
+  }
+  .outlined {
+    border-right: none;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 160%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .margined-left {
+    margin-left: 10px;
+  }
+  .margined-right {
+    margin-right: 10px;
+  }
+}
